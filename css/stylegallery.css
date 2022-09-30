@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body__principal {
+  background-color: #222021;
+  font-family: "Roboto", wght400;
+  position: relative;
+}
+/* Vectores de lineas curvas */
+.body__principal__vectores {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* Este height es para cortar y que no pasen el footer las lineas de vectores */
+  height: 4000px;
+  width: 1440px;
+  overflow: hidden;
+}
+.body__principal-img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img6 {
+  position: absolute;
+  top: 0px;
+  left: 64px;
+  color: white;
+}
+.body__principal-img7 {
+  position: absolute;
+  top: 6133px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img8 {
+  position: absolute;
+  top: 624px;
+  left: 525px;
+  color: white;
+}
+.body__principal-img9 {
+  position: absolute;
+  top: 1144px;
+  left: 846px;
+  color: white;
+}
+.body__principal-img10 {
+  position: absolute;
+  top: 3431px;
+  left: 467px;
+  color: white;
+}
+.body__principal-img11 {
+  position: absolute;
+  top: 4054px;
+  left: 650px;
+  color: white;
+  overflow: hidden;
+}
+.body__principal-img12 {
+  position: absolute;
+  top: 4678px;
+  left: 824px;
+  color: white;
+}
+.body__principal-img13 {
+  position: absolute;
+  top: 5146px;
+  left: 1014px;
+  color: white;
+}
+.body__principal-img14 {
+  position: absolute;
+  top: 5614px;
+  left: 1179px;
+  color: white;
+}
+/* fin vectores lineas curvas */
+.header__principal {
+  /* position: fixed; en este caso no quiero que el menú de navegación esté fijo*/
+  position: fixed;
+  width: 1440px;
+  height: 150px;
+  background-color: #1e0c06;
+  border-radius: 0px 0px 80px 80px;
+  z-index: 3;
+}
+.header__principal-logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.header__principal nav {
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  left: 390px;
+  z-index: 2;
+}
+.header__principal ul {
+  list-style: none;
+  display: inline-block;
+}
+.header__principal img {
+  display: inline-block;
+}
+
+.header__principal ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.header__principal ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffff;
+  /* border: 2px solid black; */
+  /* border-radius: 10%; */
+}
+
+.wood__we__work {
+  position: relative;
+  top: 0px;
+}
+.wood__we__work-contenedor {
+  position: relative;
+  height: 1200px;
+}
+.wood__we__work h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 0 20px 0;
+  color: white;
+}
+.wood__we__work img {
+  display: inline-block;
+}
+.wood__we__work p {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 0px; /*esto es para mover el texto de los 3 graficos*/
+  margin-bottom: 20px;
+}
+.wood__we__work-h1 {
+  height: 250px;
+  width: 720px;
+  font-family: "Federo", wght400;
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 230px;
+  left: 250px;
+}
+.wood__we__work-oak {
+  position: absolute;
+  top: 660px;
+  left: 130px;
+}
+.wood__we__work-buk {
+  position: absolute;
+  top: 660px;
+  left: 561px;
+}
+.wood__we__work-ash {
+  position: absolute;
+  top: 660px;
+  left: 1016px;
+}
+.our__work {
+  position: relative;
+  top: 0px;
+  height: 1350px;
+}
+.our__work h1 {
+  font-family: "Federo", wght400;
+  font-size: 90px;
+  color: white;
+  width: 1440px;
+  position: relative;
+  top: 200px;
+  left: 250px;
+}
+.our__work__video {
+  position: relative;
+  top: 300px;
+  left: 20px;
+  z-index: 2;
+}
+
+.questions__h1 {
+  position: absolute;
+  font-family: "Federo", wght400;
+  font-size: 90px;
+  color: white;
+  top: 2866px;
+  left: 463px;
+}
+
+.questions input {
+  /*Da formato a todos los campos donde se ingresa texto */
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  padding-left: 50px;
+  border-radius: 42px;
+  border-color: #728bad;
+  background-color: rgba(34, 32, 33, 0.2);
+  color: white;
+}
+.questions__name {
+  position: absolute;
+  top: 3031px;
+  left: 102px;
+  height: 77px;
+  width: 598px;
+  z-index: 2;
+}
+.questions__tel {
+  position: absolute;
+  top: 3131px;
+  left: 102px;
+  height: 77px;
+  width: 598px;
+  z-index: 2;
+}
+.questions__yourquestion {
+  position: absolute;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 42px;
+  border-color: #728bad;
+  background-color: rgba(34, 32, 33, 0.2);
+  color: white;
+  top: 3231px;
+  left: 102px;
+  height: 257px;
+  width: 598px;
+  resize: none;
+  z-index: 2;
+}
+.questions pre {
+  position: absolute;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  color: white;
+  top: 3028px;
+  left: 764px;
+}
+.questions img {
+  position: absolute;
+  top: 3270px;
+  left: 754px;
+}
+.questions__boton-cta {
+  position: absolute;
+  top: 3600px;
+  left: 102px;
+  background-color: #728bad;
+  color: white;
+  font-size: 30px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 40px;
+  text-align: center;
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 301px;
+  background-color: #222021;
+  top: 1200px;
+  left: 0px;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);
+  z-index: 2;
+}
+.footer__imglogo {
+  position: absolute;
+  top: 70px;
+  left: 102px;
+}
+.footer__privacy-policy {
+  position: absolute;
+  top: 212px;
+  left: 102px;
+  font-family: "Roboto", wght400;
+  font-size: 20px;
+  color: white;
+}
+.footer__imgtel {
+  position: absolute;
+  top: 89px;
+  left: 369px;
+}
+.footer__telnum {
+  position: absolute;
+  top: 94px;
+  left: 433px;
+}
+.footer__imggeoloc {
+  position: absolute;
+  top: 84px;
+  left: 831px;
+}
+.footer__direccion {
+  position: absolute;
+  top: 65px;
+  left: 893px;
+  width: 200px;
+  height: 70px;
+}

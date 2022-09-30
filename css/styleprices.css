@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body__principal {
+  background-color: #222021;
+  font-family: "Roboto", wght400;
+  position: relative;
+}
+/* Vectores de lineas curvas */
+.body__principal__vectores {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* Este height es para cortar y que no pasen el footer las lineas de vectores */
+  height: 3000px;
+  width: 1440px;
+  overflow: hidden;
+}
+.body__principal-img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img6 {
+  position: absolute;
+  top: 0px;
+  left: 64px;
+  color: white;
+}
+.body__principal-img7 {
+  position: absolute;
+  top: 6133px;
+  left: 0px;
+  color: white;
+}
+.body__principal-img8 {
+  position: absolute;
+  top: 624px;
+  left: 525px;
+  color: white;
+}
+.body__principal-img9 {
+  position: absolute;
+  top: 1144px;
+  left: 846px;
+  color: white;
+}
+.body__principal-img10 {
+  position: absolute;
+  top: 3431px;
+  left: 467px;
+  color: white;
+}
+.body__principal-img11 {
+  position: absolute;
+  top: 4054px;
+  left: 650px;
+  color: white;
+  overflow: hidden;
+}
+.body__principal-img12 {
+  position: absolute;
+  top: 4678px;
+  left: 824px;
+  color: white;
+}
+.body__principal-img13 {
+  position: absolute;
+  top: 5146px;
+  left: 1014px;
+  color: white;
+}
+.body__principal-img14 {
+  position: absolute;
+  top: 5614px;
+  left: 1179px;
+  color: white;
+}
+/* fin vectores lineas curvas */
+.header__principal {
+  position: fixed;
+  width: 1440px;
+  height: 150px;
+  background-color: #1e0c06;
+  border-radius: 0px 0px 80px 80px;
+  z-index: 3;
+}
+.header__principal-logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.header__principal nav {
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  left: 390px;
+  z-index: 2;
+}
+.header__principal ul {
+  list-style: none;
+  display: inline-block;
+}
+.header__principal img {
+  display: inline-block;
+}
+
+.header__principal ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.header__principal ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffff;
+  /* border: 2px solid black; */
+  /* border-radius: 10%; */
+}
+.prices {
+  font-family: "Roboto", wght400;
+  position: relative;
+  top: 0px;
+  height: 1350px;
+}
+.prices h1 {
+  font-family: "Federo", wght400;
+  font-size: 90px;
+  color: white;
+  width: 1440px;
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+.prices__tabla1 {
+  position: absolute;
+  top: 533px;
+  left: 115px;
+  padding: 0 0 0px 90px;
+  font-size: 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.prices__tabla1 th,
+td {
+  padding: 50px 70px 0 20px;
+  border-bottom: 1px solid #8e3921;
+  border-collapse: collapse;
+  height: 80px;
+  width: 90px;
+  text-align: start;
+  vertical-align: top;
+}
+.prices__tabla2 {
+  position: absolute;
+  top: 533px;
+  left: 765px;
+  padding: 0 0 0 25px;
+  font-size: 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.prices__tabla2 th,
+td {
+  padding: 50px 70px 0 20px;
+  border-bottom: 1px solid #8e3921;
+  border-collapse: collapse;
+  height: 80px;
+  width: 90px;
+  vertical-align: top;
+}
+.prices__tabla2__colorcelda {
+  background-color: #e59679;
+  vertical-align: super;
+}
+.prices__tabla3 {
+  position: absolute;
+  top: 1213px;
+  left: 115px;
+  padding: 0 0 0px 90px;
+  font-size: 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.prices__tabla3 th,
+td {
+  padding: 50px 70px 0 20px;
+  border-bottom: 1px solid #8e3921;
+  border-collapse: collapse;
+  height: 80px;
+  width: 90px;
+  text-align: start;
+  vertical-align: top;
+}
+.prices__tabla4 {
+  position: absolute;
+  top: 1213px;
+  left: 765px;
+  padding: 0 0 0 25px;
+  font-size: 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.prices__tabla4__colorcelda {
+  background-color: #e59679;
+  vertical-align: super;
+}
+.questions__h1 {
+  position: absolute;
+  font-family: "Federo", wght400;
+  font-size: 90px;
+  color: white;
+  /* 2866 */
+  top: 1866px;
+  left: 463px;
+}
+.questions input {
+  /*Da formato a todos los campos donde se ingresa texto */
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  padding-left: 50px;
+  border-radius: 42px;
+  border-color: #728bad;
+  background-color: rgba(34, 32, 33, 0.2);
+  color: white;
+}
+.questions__name {
+  position: absolute;
+  top: 2031px;
+  left: 102px;
+  height: 77px;
+  width: 598px;
+  z-index: 2;
+}
+.questions__tel {
+  position: absolute;
+  top: 2131px;
+  left: 102px;
+  height: 77px;
+  width: 598px;
+  z-index: 2;
+}
+.questions__yourquestion {
+  position: absolute;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 42px;
+  border-color: #728bad;
+  background-color: rgba(34, 32, 33, 0.2);
+  color: white;
+  top: 2231px;
+  left: 102px;
+  height: 257px;
+  width: 598px;
+  resize: none;
+  z-index: 2;
+}
+.questions pre {
+  position: absolute;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  color: white;
+  top: 2028px;
+  left: 764px;
+}
+.questions img {
+  position: absolute;
+  top: 2320px;
+  left: 754px;
+}
+.questions__boton-cta {
+  position: absolute;
+  top: 2600px;
+  left: 102px;
+  background-color: #728bad;
+  color: white;
+  font-size: 30px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 40px;
+  text-align: center;
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 301px;
+  background-color: #222021;
+  top: 1430px;
+  left: 0px;
+  font-family: "Roboto", wght400;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);
+  z-index: 2;
+}
+.footer__imglogo {
+  position: absolute;
+  top: 70px;
+  left: 102px;
+}
+.footer__privacy-policy {
+  position: absolute;
+  top: 212px;
+  left: 102px;
+  font-family: "Roboto", wght400;
+  font-size: 20px;
+  color: white;
+}
+.footer__imgtel {
+  position: absolute;
+  top: 89px;
+  left: 369px;
+}
+.footer__telnum {
+  position: absolute;
+  top: 94px;
+  left: 433px;
+}
+.footer__imggeoloc {
+  position: absolute;
+  top: 84px;
+  left: 831px;
+}
+.footer__direccion {
+  position: absolute;
+  top: 65px;
+  left: 893px;
+  width: 200px;
+  height: 70px;
+}
