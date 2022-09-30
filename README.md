@@ -1,3 +1,3 @@
 # proyectocoder
 Repositorio de proyecto 
-Segunda entrega del proyecto para el curso de desarrollo web de CoderHouse.
+Segunda entrega del proyecto para el curso de desarrollo web de CoderHouse de Arese Pedro.
